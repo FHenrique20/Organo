@@ -5,7 +5,7 @@ import { GeneroLiterario } from '../livro/livro';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-genero-literario', 
+  selector: 'app-genero-literario',
   imports: [LivroComponent, CommonModule],
   templateUrl: './genero-literario.component.html',
   styleUrl: './genero-literario.component.css'

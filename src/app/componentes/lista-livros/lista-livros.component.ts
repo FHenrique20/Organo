@@ -21,7 +21,7 @@ export class ListaLivrosComponent implements OnInit{
      const generoId = livro.genero.id
      if(!this.livrosPorGenero.has(generoId)) {
       this.livrosPorGenero.set(generoId, [])
-     } 
+     }
      this.livrosPorGenero.get(generoId)?.push(livro)
     });
 
